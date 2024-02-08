@@ -1,4 +1,4 @@
-# Rosen Bridge Docs
+# Rosen Bridge Documentations
 
 ### Table of Contents
 
