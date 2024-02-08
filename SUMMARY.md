@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Rosen Bridge Docs](README.md)
+* [Rosen Bridge Documents](README.md)
   * [guard](readme/guard/README.md)
     * [keygen-docker](readme/guard/keygen-docker.md)
     * [setup](readme/guard/setup.md)
