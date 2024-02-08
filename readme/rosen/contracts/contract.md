@@ -1,5 +1,5 @@
 
-# Rosen Bridge
+# Rosen Bridge Contract
 The Rosen Bridge is an Ergo-centric bridge designed to facilitate the seamless exchange of coins and tokens between the Ergo blockchain and other supported chains. In this document, we will delve into the technical intricacies of the Rosen Bridge's design. For a broader understanding of the Rosen Bridge's high-level concepts, you can refer to this [link](https://github.com/rosen-bridge).
 
 ## Rosen Bridge Components
