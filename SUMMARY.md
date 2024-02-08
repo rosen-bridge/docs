@@ -1,4 +1,4 @@
-# Table of contents summary
+# Table of contents
 
 * [Rosen Bridge Docs](README.md)
   * [guard](readme/guard/README.md)
