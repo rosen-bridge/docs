@@ -20,5 +20,6 @@
     * [Catalyst-Fund10](readme/rosen/catalyst-fund10/README.md)
       * [Summary of findings on the Rosen](readme/rosen/catalyst-fund10/summary-of-findings-on-the-rosen.md)
       * [F10 RewardModelAndTokenomicsOfRosenBridge](readme/rosen/catalyst-fund10/f10-rewardmodelandtokenomicsofrosenbridge.md)
+      * [Fund 10 AMA Recordings](readme/rosen/catalyst-fund10/fund-10-ama-recordings.md)
   * [watcher](readme/watcher/README.md)
     * [Watcher Deployment](readme/watcher/deploy-docker.md)
