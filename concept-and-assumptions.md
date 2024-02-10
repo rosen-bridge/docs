@@ -1,0 +1,13 @@
+# Concept and Assumptions
+
+This bridge utilizes a two-layer architecture. In the first layer, watchers are monitoring and report the events on the networks. Upon reaching a consensus on a particular event, the second layer is being notified. In the second layer, Guards will verify the event and create/sign the required transaction for ergo or chainX.
+
+* For any chainX, Guards hold a key for a multi-sig wallet (or a share of a key for threshold signature). More sophisticated approaches are possible but not necessary. On the other hand, watchers do not have any keys.
+* Guards utilize an m-out-of-n threshold/multisig scheme. So, the bridge will not be corrupted unless at least 'm' Guards are corrupted.
+* Watchers monitor the chains, verify and report the events, and try to reach a consensus on the verified events. Then they notify the Guards of an approved event. Guards will verify the approved events and try to sign the required transaction.
+* Watchers actively monitor the chains and trigger the events, while Guards only verify the approved events. This method allows this bridge to scale without increasing the Guards' computation. In theory, anyone can be a watcher and a set of predefined entities will work as Guards. The Watcher and Guard members can change over time.
+* Note that the bridge is not relying on the security of the Watchers. In case of malfunctioning or corrupted Watchers, who create fraudulent events, the bridge is robust and sound since the Guards are individually validating the events.
+* There should be a message/info/metadata support for the transaction of the other chain.
+* To detect and avoid hard forks, double spending, known or unknown frauds, and race conditions this bridge is not sacrificing security for speed. For example, the watchers wait for a few confirmations before triggering the event, it takes a few Ergo blocks for the watchers to reach consensus, and the Guards are looking for more confirmations for validating the event.
+* At the first glance, having a multi-sig wallet for other chains may look insufficient or not complex enough to satisfy an average user. In the end, all of these complicated methods rely on the same assumption as not having more than a threshold number of corrupted parties. On the other hand, since this bridge is only utilizing the smart contracts of Ergo, the whole process is auditable on Ergo and eliminates the need for having several smart contracts on different chains with different assumptions. This makes Rosen bridge pretty auditable and more secure than currently known bridges.
+* Adding new chains is as easy as creating a wallet for the Guards, creating the Watchers, and setting some configurations.
