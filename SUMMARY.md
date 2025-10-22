@@ -26,4 +26,5 @@
 
 ## 🛠️ r\&d
 
-* [Page 1](r-and-d/page-1.md)
+* [Page 1](r-and-d/page-1/README.md)
+  * [Page](r-and-d/page-1/page.md)
