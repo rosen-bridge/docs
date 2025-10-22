@@ -26,5 +26,4 @@
 
 ## 🛠️ r\&d
 
-* [Page 1](r-and-d/page-1/README.md)
-  * [Page](r-and-d/page-1/page.md)
+* [Bringing Monero](r-and-d/bringing-monero.md)
