@@ -7,7 +7,7 @@
 * [🔁 Token Transfer from ChainX to Ergo: A Step-by-Step Guide](token-transfer-from-chainx-to-ergo-a-step-by-step-guide.md)
 * [🔄 Transferring rTokens from Ergo to ChainX](transferring-rtokens-from-ergo-to-chainx.md)
 * [💰 RosenBridge Fees & Dust collection](rosenbridge-fees-and-dust-collection.md)
-* [⛓ New chain integration](new-chain-integration.md)
+* [⛓️ New chain integration](new-chain-integration.md)
 * [🚀 Benefits of RosenBridge](benefits-of-rosenbridge.md)
 * [🪙 Rsn Token](rsn-token.md)
 * [Rosen Bridge Documents](<README (1).md>)
@@ -23,3 +23,7 @@
       * [Fund 10 AMA Recordings](readme/rosen/catalyst-fund10/fund-10-ama-recordings.md)
   * [watcher](readme/watcher/README.md)
     * [Watcher Deployment](readme/watcher/deploy-docker.md)
+
+## 🛠️ r\&d
+
+* [Page 1](r-and-d/page-1.md)
